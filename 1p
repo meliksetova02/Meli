@@ -1,0 +1,8 @@
+#include <stdio.h> 
+int main(void){
+int x=3; 
+int y=2;
+char op ='+';
+int z = op=='='?(x+y):(x-y);
+printf("z = %d", z);    //5
+return 0;}
